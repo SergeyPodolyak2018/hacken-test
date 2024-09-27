@@ -58,15 +58,6 @@ export function useMain() {
     });
   };
 
-  // const getData = async () => {
-  //   const getDataAfterTime = dataWithTimer(aboutMockData);
-  //   const result = await getDataAfterTime(5000);
-  //   dispatch({
-  //     type: 'ADD_ABOUT_DATA',
-  //     payload: result,
-  //   });
-  // };
-
   return {
     ...state.main,
     changeCurency,
